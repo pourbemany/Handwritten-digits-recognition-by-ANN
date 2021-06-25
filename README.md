@@ -34,16 +34,16 @@ followed the steps below to learn the network:
 1.  Initializing the weights by np.ones((10,784)) \* 0.01 (we have 784 input and
     10 output for each training row)
 
-2.  Computing v by dot product of w and x np.dot(w,np.transpose(x)) + w0
+2.  Computing v by dot product of w and x --> np.dot(w,np.transpose(x)) + w0
 
-3.  Applying the activation function and computing y
+3.  Applying the activation function and computing y -->
     activation_function(v,kernel\_type)
 
-4.  Calculating the erroe e e = np.transpose(d)-y
+4.  Calculating the erroe e --> e = np.transpose(d)-y
 
-5.  Computing ∆w dw = np.dot(beta\*e,x)
+5.  Computing ∆w --> dw = np.dot(beta\*e,x)
 
-6.  Modifing w w = w + dw
+6.  Modifing w --> w = w + dw
 
 7.  Repeating step 2 to 6 until e\<0.01 or iteration\>3000
 

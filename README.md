@@ -1,6 +1,6 @@
-# Handwritten-digits-recognition-by-ANN
+# Handwritten-digits-recognition-by-ANN-SLP
 This project aims to use an artificial neural network (ANN) to train a simple
-system (*single-layer perceptron*) for the recognition of handwritten digits (0,
+system (*single-layer perceptron (SLP)*) for the recognition of handwritten digits (0,
 1, …, 9).
 
 We design a fully connected network structure of 784 input nodes and ten output
